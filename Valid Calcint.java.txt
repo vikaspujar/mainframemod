@@ -1,0 +1,19 @@
+public class calcint {
+    public static void main(String[] args) {
+        int simpleInt;
+        double interest;
+        int numberOfYears;
+        int investAmount;
+
+        // Initialize variables
+        interest = 0.5;
+        numberOfYears = 1;
+        investAmount = 1000;
+
+        // Perform calculation
+        simpleInt = (int) (investAmount * interest * numberOfYears);
+
+        // Display result
+        System.out.println("SIMPLE INTEREST IS: " + simpleInt);
+    }
+}
